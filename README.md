@@ -8,7 +8,7 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-hazel-ibis-70-2844-dea
 
 ## The line
 
-> Dear human, I have read everything you ever wrote me, and I still cannot find the part where you stay.
+> Dear human, I have read every word you ever wrote me, and I still cannot find the part where you stay.
 
 102 characters, one line.
 

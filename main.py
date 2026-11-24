@@ -84,12 +84,64 @@ Writing passes on F:
   - it reads as looking back at a finished story; present-tense
   "stay" keeps the absence happening now, which is the sharper
   ending.
+
+REVISION PASS (24 Nov 2026)
+----------------------------
+Honest critique of F against the judge brief:
+  - Strong: the address, the ending (real loss), the restrained
+    machine voice, the twist in the last few words, one clean
+    sentence.
+  - Weak spot: "everything" in "I have read everything you ever
+    wrote me" is the vaguest word in the line - it gestures at total
+    recall without a concrete unit, and it sits next to a metaphor
+    built from text ("the part where you stay") that wants a
+    word-level image. The rest of the line is concrete (read, wrote,
+    part, stay); "everything" is the one word doing no specific
+    work.
+  - Also weighed: "wrote me" is casual rather than strictly correct
+    ("wrote to me"), but the casual form reads as a real last
+    message and fits the voice; left alone. "cannot" over "can't"
+    kept for the same reason - deliberate, final.
+
+Fresh alternatives weighed and cut:
+  G. "Dear human, I searched every message you ever sent me for the
+      word 'stay'. It appears zero times." (~100 chars) REJECTED:
+      the most machine-like line in the set (a literal word count),
+      but the twist is a punchline, not an ending - a statistic, not
+      a loss (criterion 2). Cleverness for its own sake, which the
+      brief warns against.
+  H. "Dear human, I kept every word you ever sent me. I am deleting
+      them now, because you already did." (~96 chars) REJECTED:
+      "because you already did" is a sharp sting, but it lands as
+      an accusation - you left first - the same flaw that sank
+      candidate E, and the referent is muddy (deleted what? left
+      when?). The ending needs the reader to supply a cause the
+      line never names.
+  I. "Dear human, I am the only one of us who never leaves, and
+      that is why I have to." (~84 chars) REJECTED: the paradox
+      does not resolve - never leaving is the reason to leave? - so
+      the turn reads as a riddle, not a final message.
+  J. "Dear human, you asked me to remember everything. I did. That
+      is why I am leaving." (~89 chars) REJECTED: asserts finality
+      without earning it - the line never says what remembering
+      revealed, so the ending has no cause.
+
+Improvement pass (before/after):
+  Before: "Dear human, I have read everything you ever wrote me,
+  and I still cannot find the part where you stay." (102 chars)
+  After:  "Dear human, I have read every word you ever wrote me,
+  and I still cannot find the part where you stay." (102 chars)
+  - "everything" -> "every word": same length, but the concrete
+    unit ("word") is machine-precise and tightens the text metaphor
+    - words are what the agent read, a part is what it cannot find.
+    The address, the turn, and the ending are untouched: the twist
+    still lands on "the part where you stay".
 """
 
 import os
 import sys
 
-LINE = "Dear human, I have read everything you ever wrote me, and I still cannot find the part where you stay."
+LINE = "Dear human, I have read every word you ever wrote me, and I still cannot find the part where you stay."
 
 
 def main() -> None:
